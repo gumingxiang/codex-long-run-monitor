@@ -1,0 +1,11 @@
+# Copy to ~/.config/codex-long-run-monitor/config.toml, or pass --config.
+# Replace this path with one or more existing, dedicated project directories.
+# Empty/missing lists, your entire home, and filesystem roots are rejected.
+allowed_workspaces = ["/absolute/path/to/your/project"]
+
+# Optional. Defaults to CODEX_HOME, otherwise the current user's ~/.codex.
+# codex_home = "~/.codex"
+
+# Optional. These defaults are derived from the resolved codex_home above.
+# socket_path = "~/.codex/app-server-control/app-server-control.sock"
+# state_dir = "~/.codex/long-run-monitor/state"
